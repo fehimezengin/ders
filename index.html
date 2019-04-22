@@ -1,87 +1,523 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Basic html layout example</title>
-  <div class="header" id="FASHİONABLE">
-      <h2><b>FASHİONABLE</b> </h2>
-    </div>
-    <div class="scrollmenu">
-      <a href="#homepage">Ana Sayfa</a>
-      <a href="#fashion">Moda</a>
-      <a href="#beauty">Ğüzellik</a>
-      <a href="#life">Yaşam</a>
-      <a href="#entertainment">Eğlence</a>
-      <input type="text" placeholder="ara..">
-      <div class="footer">
-        <!inatGRm>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <a href="#" class="fa fa-instagram"></a>
-        <h2>Şıklık Asla Eskimeyen Ğüzelliktir</h2>
-        
-      </div>
-      
-     
-    </div>
-<link rel="stylesheet" href="style.css">
+
+    <title>FASHİONABLE  </title>
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="css/responsive.css" rel="stylesheet">
+
 </head>
-<body class="hello">
-  <header>
-    <h1>< header ></h1>
-  </header>
-  <nav>
-    < nav >
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </nav>
-  <section>
-    <div class="row"> 
-  <div class="column">
-    <img src="fe.jpg">
-    <img src="f.jpg">
-    <img src="feh.jpg">
-    <img src="z.jpg">
-    <img src="ze.jpg">
-    <img src="zen.jpg">
-    <img src="zeng.jpg">
-  </div>
-  <div class="column">
-    <img src="zengi.jpg">
-    <img src="zengin.jpg">
-    <img src="wedding.jpg">
-    <img src="mountainskies.jpg">
-    <img src="rocks.jpg">
-    <img src="underwater.jpg">
-  </div> 
-  <div class="column">
-    <img src="wedding.jpg">
-    <img src="rocks.jpg">
-    <img src="falls2.jpg">
-    <img src="paris.jpg">
-    <img src="nature.jpg">
-    <img src="mist.jpg">
-    <img src="paris.jpg">
-  </div>
-  <div class="column">
-    <img src="underwater.jpg">
-    <img src="ocean.jpg">
-    <img src="wedding.jpg">
-    <img src="mountainskies.jpg">
-    <img src="rocks.jpg">
-    <img src="underwater.jpg">
-  </div>
-</div>
-    
-  </section>
-  <aside>
-    < aside >
-  </aside>
-  <footer>
-    < footer >
-  </footer>
+
+<body>
+    <header class="header-area">
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                     <div class="col-12 col-md-6">
+                        <div class="breaking-news-area">
+                            <h5 class="breaking-news-title">Şıklık Asla Eskimeyecek Ğüzelliktir.</h5>
+                            <div id="breakingNewsTicker" class="ticker">
+                                <ul>
+                                    <li><a href="#">Moda 8. sanat değil birinin sanatırdır.</a></li>
+                                    <li><a href="#">Stil ve moda arasındaki, fark kalitedir.</a></li>
+                                    <li><a href="#">Bir kadın gülümsüyorsa elbiseleri de gülümser.</a></li>
+                                    <li><a href="#">Basitlik zarafetin anahtarıdır.</a></li>
+                                    <li><a href="#">Yaşam bedenle sınırlı değildir.</a></li>
+                                    <li><a href="#">Ne zaman şüpheli olsam kırmızı giyerim.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="logo-area">
+                   <a href="index.html"><img src="fff.png" alt="logo"></a>
+                        </div>
+                    </div>
+        <div class="bottom-header">
+            <div class="container h-100">
+                        <div class="main-menu">
+                            <nav class="navbar navbar-expand-lg">
+                                <div class="collapse navbar-collapse" id="fashionMenu">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="#">Ana Sayfa </a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link " href="#">Moda</a>
+                                           
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Ğüzellik</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Yaşam</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Eğlence</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">İletişim</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+    </header>
+   
+    <section class="welcome-blog-post-slide owl-carousel">
+        <div class="single-blog-post-slide bg-img background-overlay-5" style="background-image: url(fehim.jpg);">
+            <div class="single-blog-post-content">
+                <div class="tags">
+                    <a href="#">Eğlence</a>
+                </div>
+                <h3><a href="#" class="font-pt">Her Kadının İzlemesi Gereken 8 Film</a></h3>
+                <div class="date">
+                    <a href="#">18.03.2019</a>
+                </div>
+            </div>
+        </div>
+        <div class="single-blog-post-slide bg-img background-overlay-5" style="background-image: url(fe.jpg);">
+            <div class="single-blog-post-content">
+                <div class="tags"> 
+                    <a href="#">Moda</a>
+                </div>
+                <h3><a href="#" class="font-pt">Şapkalı Kraliyet Şıklığı</a></h3>
+                <div class="date">
+                    <a href="#">18.03.2019</a>
+                </div>
+            </div>
+        </div>
+        <div class="single-blog-post-slide bg-img background-overlay-5" style="background-image: url(feh.png);">
+            <div class="single-blog-post-content">
+                <div class="tags">
+                    <a href="#">Ğüzellik</a>
+                </div>
+                <h3><a href="#" class="font-pt">Oscar Töreninden 10 Makyaj Sırrı </a></h3>
+                <div class="date">
+                    <a href="#">18.03.2019</a>
+                </div>
+            </div>
+        </div>
+        <div class="single-blog-post-slide bg-img background-overlay-5" style="background-image: url(fehi.jpg);">
+            <div class="single-blog-post-content">
+                <div class="tags">
+                    <a href="#">Yaşam</a>
+                </div>
+                <h3><a href="#" class="font-pt">Dünyanın En Genç Milyarderi Kylie Jenner</a></h3>
+                <div class="date">
+                    <a href="#">18.03.2019</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-content-wrapper section_padding_100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9">
+                    <div class="hoşgeldin">
+                        <div class="tags">
+                            <a href="#">Güzellik</a>
+                        </div>
+                        <h2 class="font-pt">Fondöten uygulamanın püf noktaları</h2>
+                        <p class="gazette-post-date">25.03.2019</p>
+                        <div class="fotoğraf ">
+                            <img src="fon.jpg" alt="post-thumb">
+                        </div>
+                        <p>Pürüzsüz, kusursuz ve kadifemsi bir ten için fondötenlerin rolü büyük. Gözlerimizi alamadığımız Hollywood yıldızları gibi mükemmel bir cilt dokusu elde etmek için doğru ürün ve uyğulama adımlarını takip edin.</p>
+                        <div class="buton">
+                            <div class="post-continue-btn">
+                                <a href="#" class="font-pt">devam et </a>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="popüler">
+						<br>
+                            <h4>Popüler</h4>
+						 <font  size="2" color="red"> MODA </font>
+                        <div class="  gucci">
+                                <img src="gucci.jpg" alt="">
+                            <div class="todays-post-content">
+                               <font  size="5" color="black"> Gucci İlkbahar-Yaz 2019 stil kodları </font>
+                               <br> <span class="time">23.03.2019</span>
+                                <p>Geçtiğimiz Eylül ayında Paris defilesi ile moda dünyasına sunulan Gucci İlkbahar-Yaz 2019 koleksiyonu raflarda yer almaya başladı.İşte 8 kilit parça ile Gucci'nin İlbahar-Yaz stil kodları!</p>
+                            </div>
+                        </div>
+						 <font  size="2" color="red">GÜZELLİK </font>
+                        <div class="  gucci">
+                                <img src="kirpik.jpg" alt="">
+                            <div class="todays-post-content">
+                               <font  size="5" color="black">  Kirpiklerinize Özel 4 Serum </font>
+                               <br> <span class="time">24.03.2019</span>
+                                <p>Fazla makyaj,değişen havalar kirpik sağlığınızı olumsuz etkiliyor olabilir.Kirpiklerinize ihyacı olan bakımı sağlıyacak öne çıkan kirpik serumları.</p>
+                            </div>
+                        </div>
+                       
+                </div>
+
+		 <div class="widget-title">
+                                <h5>En İyiler</h5>
+                            </div>
+        <div class="gazette-catagory-posts-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="gazette-single-catagory-post">
+                            <div class="single-catagory-post-thumb mb-15">
+                                <img src="feehi.png" alt="">
+                            </div>
+                            <div class="gazette-post-tag">
+                                <a href="#">Moda</a>
+                            </div>
+                            <h5><a href="#" class="font-pt">Fit21 spor taytlar sokak modasında!</a></h5>
+                            <span>25.03.2019</span>
+                        </div>
+                        <div class="gazette-single-catagory-post">
+                            <h5><a href="#" class="font-pt">Baharlık ceket modelleri </a></h5>
+                            <span>26.03.2019</span>
+                        </div>
+                        <div class="gazette-single-catagory-post">
+                            <h5><a href="#" class="font-pt">2018 yazının bikini ve mayo trendleri</a></h5>
+                            <span>27.03.2019</span>
+                        </div>
+                        <div class="gazette-single-catagory-post">
+                            <h5><a href="#" class="font-pt">En güzel saç aksesuarları </a></h5>
+                            <span>28.03.2019</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="gazette-single-catagory-post">
+                                    <div class="single-catagory-post-thumb mb-15">
+                                        <img src="saç.jpg" alt="">
+                                    </div>
+                                    <!-- Post Tag -->
+                                    <div class="gazette-post-tag">
+                                        <a href="#">Ğüzellik</a>
+                                    </div>
+                                    <h5><a href="#" class="font-pt">2019 İlkbahar/Yaz sezonunun saç renkleri</a></h5>
+                                    <span>28.03.2019</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="gazette-single-catagory-post">
+                                    <div class="single-catagory-post-thumb mb-15">
+                                        <img src="burç.jpg" alt="">
+                                    </div>
+                                    <div class="gazette-post-tag">
+                                        <a href="#">Yaşam</a>
+                                    </div>
+                                    <h5><a href="#" class="font-pt">Burçların ilginç takıntılarını biliyor musunuz?</a></h5>
+                                    <span>05.04.2019</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="gazette-single-catagory-post">
+                                    <div class="single-catagory-post-thumb mb-15">
+                                        <img src="makyaj.jpg" alt="">
+                                    </div>
+                                    <div class="gazette-post-tag">
+                                        <a href="#">moda</a>
+                                    </div>
+                                    <h5><a href="#" class="font-pt">Gelin makyajı için 15 harika örnek</a></h5>
+                                    <span>12.04.2019</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="gazette-single-catagory-post">
+                                    <div class="single-catagory-post-thumb mb-15">
+                                        <img src="koku.jpg" alt="">
+                                    </div>
+                                    <div class="gazette-post-tag">
+                                        <a href="#">Yaşam</a>
+                                    </div>
+                                    <h5><a href="#" class="font-pt">Bu besinler ağız kokusunu yok ediyor!</a></h5>
+                                    <span>12.04.2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="gazette-single-catagory-post">
+                            <div class="single-catagory-post-thumb mb-15">
+                                <img src="rujj.png" alt="">
+                            </div>
+                            <div class="gazette-post-tag">
+                                <a href="#">Ğüzellik</a>
+                            </div>
+                            <h5><a href="#" class="font-pt">Dudak şekline göre ruj sürme teknikleri</a></h5>
+                            <span>13.04.2019</span>
+                        </div>
+                        <div class="gazette-single-catagory-post">
+                            <h5><a href="#" class="font-pt">Hassas gözler için makyaj önerileri</a></h5>
+                            <span>14.04.2019</span>
+                        </div>
+                        <div class="gazette-single-catagory-post">
+                            <h5><a href="#" class="font-pt">5 adımda daha güzel göğüslere sahip olun!</a></h5>
+                            <span>15.04.2019</span>
+                        </div>
+                      
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<div class="widget-title">
+                                <h5>Videolar</h5>
+                            </div>
+    <section class="gazatte-video-post-area section_padding_100_70 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="single-video-post">
+                        <div class="video-post-thumb">
+                            <img src="guccii.jpg" alt="">
+                            <a href="https://www.youtube.com/watch?v=IoHY-f_bh44" class="videobtn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                        <h5><a href="#">Gucci Sonbahar-Kış 2019/2020</a></h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="single-video-post">
+                        <div class="video-post-thumb">
+                            <img src="jef.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=PHox-7EzWXo" class="videobtn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                        <h5><a href="#">Blue Blood Jeffree Star Kozmetik</a></h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="single-video-post">
+                        <div class="video-post-thumb">
+                            <img src="paris.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=Zeq9Aa4qX0U" class="videobtn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                        <h5><a href="#">Stella McCartney 2019/20 Sonbahar-Kış</a></h5>
+                    </div>
+                </div>
+                <!-- Single Video Post Start -->
+                <div class="col-12 col-md-3">
+                    <div class="single-video-post">
+                        <div class="video-post-thumb">
+                            <img src="çagla.jpg" alt="">
+                            <a href="https://www.youtube.com/watch?v=nkctvsdIFRs" class="videobtn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                        <h5><a href="#">Çağla | Çabasız Cool Kombin Önerilerim </a></h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="single-video-post">
+                        <div class="video-post-thumb">
+                            <img src="chanel.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=9tyX0jY1yhg" class="videobtn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                        <h5><a href="#">Cara Delevingne × Chanel</a></h5>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <div class="single-video-post">
+                        <div class="video-post-thumb">
+                            <img src="örgü.png" alt="">
+                            <a href="https://www.youtube.com/watch?v=guXzmE-Muk4" class="videobtn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                        <h5><a href="#">Afrika Örgüsü Hakkında Her Şey</a></h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="single-video-post">
+                        <div class="video-post-thumb">
+                            <img src="cips.jpg" alt="">
+                            <a href="https://www.youtube.com/watch?v=L5d9ogzHyH8" class="videobtn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                        <h5><a href="#">DİYET CİPS TARİFİ! (ÇITIR ÇITIR) SAĞLIKLI ATIŞTIRMALIK</a></h5>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="single-video-post">
+                        <div class="video-post-thumb">
+                            <img src="vercase.jpg" alt="">
+                            <a href="https://www.youtube.com/watch?v=fki0qui7vqg" class="videobtn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                        <h5><a href="#">Versace | Güz Kış 2019/2020 Tam Defile | özel</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gazatte-editorial-area section_padding_100 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="editorial-post-slides owl-carousel">
+                        <div class="editorial-post-single-slide">
+                            <div class="row">
+                                <div class="col-12 col-md-5">
+                                    <div class="editorial-post-thumb">
+                                        <img src="tırnak.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="editorial-post-content">
+                                        <div class="gazette-post-tag">
+                                            <a href="#">Ğüzellik</a>
+                                        </div>
+                                        <h2><a href="#" class="font-pt mb-15">Ayna görünümlü ojeler hakkında bilmeniz gerekenler</a></h2>
+                                        <p class="editorial-post-date mb-15">22.04.2019</p>
+                                        <p>90’lı yılların popüler oje trendi olan metalik, ayna görünümlü ojeler geriye dönüş yaşadığımız bu dönemde de sıklıkla karşımıza çıkıyor. Her kombininize kolaylıkla uyum sağlayacak olan bu trend, makyaj blogger’ları ve güzellik guruları tarafından oldukça sık kullanılıyor. Karşımıza çıktığından beri severek takip ettiğimiz ayna görünümlü oje trendi nedir, nasıl kullanılmalı ve bu ürünleri hangi markalarda bulabiliriz sorularına yanıt bulmak için yazının devamına bakabilirsiniz.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="editorial-post-single-slide">
+                            <div class="row">
+                                <div class="col-12 col-md-5">
+                                    <div class="editorial-post-thumb">
+                                        <img src="kremm.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="editorial-post-content">
+                                        <div class="gazette-post-tag">
+                                            <a href="#">Ğüzellik</a>
+                                        </div>
+                                        <h2><a href="#" class="font-pt mb-15">Pamuk gibi bir cilt için ev yapımı krem</a></h2>
+                                        <p class="editorial-post-date mb-15">23.04.2019</p>
+                                        <p>Kolayca bulabileceğiniz bu 3 malzemeli kremi mutfağa gidip hemen denemenizi öneriyoruz...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="editorial-post-single-slide">
+                            <div class="row">
+                                <div class="col-12 col-md-5">
+                                    <div class="editorial-post-thumb">
+                                        <img src="oda.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="editorial-post-content">
+                                        <div class="gazette-post-tag">
+                                            <a href="#">Yaşam</a>
+                                        </div>
+                                        <h2><a href="#" class="font-pt mb-15">Moda tutkunları için giyinme odaları</a></h2>
+                                        <p class="editorial-post-date mb-15">23.04.2019</p>
+                                        <p>Moda tutkunlarına, giyimine özen gösterenlere, iki gün üst üste asla aynı şeyi giymeyenlere, her sabah hevesle ve özenle yeni kombinler yaratanlara ve modada yeni trendleri hiç kaçırmayanlara sıradan bir gardırobun asla yetmeyeceğini biliyoruz. İşte Homify'ın derlediği birbirinden farklı giyinme odası örnekleri ve giyinme odalarının olmazsa olmazları...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="editorial-post-single-slide">
+                            <div class="row">
+                                <div class="col-12 col-md-5">
+                                    <div class="editorial-post-thumb">
+                                        <img src="bosna.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    <div class="editorial-post-content">
+                                        <div class="gazette-post-tag">
+                                            <a href="#">Yaşam</a>
+                                        </div>
+                                        <h2><a href="#" class="font-pt mb-15">Bosna Hersek'te yapmanız gereken 10 şey</a></h2>
+                                        <p class="editorial-post-date mb-15">22.04.2019</p>
+                                        <p> Bosna Hersek ülkemize yakınlığı, vizesiz seyahat imkanı, tarihi ve doğal güzellikleri ile en çok tercih edilen seyahat rotalarından. Mina Karanis başkent Saraybosna ve çevresine özel bir rehber hazırladı.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-area bg-img background-overlay" style="background-image: url(yılan.jpg);">
+        <div class="top-footer-area section_padding_100_70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Moda</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Ünlüler</a></li>
+                                <li><a href="#">Trendler</a></li>
+                                <li><a href="#">Tasarımcılar</a></li>
+                                <li><a href="#">Stil Önerileri</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Ğüzellik</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Saç</a></li>
+                                <li><a href="#">Tırnak</a></li>
+                                <li><a href="#">Makyaj</a></li>
+                                <li><a href="#">Parfüm</a></li>
+								 <li><a href="#">Cilt Bakımı</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Yaşam</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Seyahat</a></li>
+                                <li><a href="#">Yeme-İçme</a></li>
+                                <li><a href="#">Kendin Yap</a></li>
+                                <li><a href="#">Anne-çocuk</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="single-footer-widget">
+                            <div class="footer-widget-title">
+                                <h4 class="font-pt">Eğlence</h4>
+                            </div>
+                            <ul class="footer-widget-menu">
+                                <li><a href="#">Kültür Sanat</a></li>
+                                <li><a href="#">Ünlüler</a></li>
+                                <li><a href="#">Kırmızı Halı</a></li>
+                                <li><a href="#">Trendler</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </footer>
+  
+
 </body>
+
 </html>
